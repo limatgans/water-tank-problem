@@ -30,7 +30,7 @@ const waterCapacity = (bricksArray = []) => {
 			}
 			
 			const capacityIndex = Math.min(rmax, lmax) - cur;
-			console.log( { lmax, rmax, cur, capacityIndex} )
+			console.log( { lmax, rmax, cur, capacityIndex, acc} )
 			
 			if (capacityIndex > 0) {
 				acc += capacityIndex;
