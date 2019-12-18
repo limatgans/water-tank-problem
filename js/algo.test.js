@@ -32,3 +32,12 @@ if (test3 !== 0	) {
 	return;
 }
 console.log(`Test3 Successful - Expected - 0	Receieved - ${test3}`);
+
+const test4 = waterCapacity([5,5,5,5]);
+
+console.log(`Starting test 4 - waterCapacity([5,5,5,5])`)
+if (test4 !== 0	) {
+	console.log(`waterCapacity([5,5,5,5]) fails - Expected - 0	Receieved - ${test4}`);
+	return;
+}
+console.log(`Test4 Successful - Expected - 0	Receieved - ${test4}`);
