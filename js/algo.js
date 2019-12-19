@@ -16,7 +16,7 @@ const waterCapacity = (bricksArray = []) => {
 
 			// min(lmax, rmax) - cur 
 
-			// Notes to self: Thi algo is very complex... Need to simplify
+			// Notes to self: This algo is very complex... Need to simplify
 
 			const leftArr = self.slice(0, ind);
 			const lmax = Math.max(...leftArr);
